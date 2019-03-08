@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="#">
+			<lable for="intro">自我介绍：</lable>
+			<textarea name="area" rows="3" cols="10"></textarea>
+			<!--<lable for="hidden">隐藏域</lable>-->
+			<input type="hidden" name="hidden" id="hidden" value="1" />
+			<br />
+			
+			下拉列表：
+			<select name="area" id="area" multiple>
+				<option value="河南省">河南省</option>
+				<option value="周口市">周口市</option>
+				<option value="南阳市">南阳市</option>
+				<option value="濮阳市">濮阳市</option>
+				<option value="开封市">开封市</option>
+				<option value="信阳市">信阳市</option>
+			</select>
+			<br />
+			<!--email-->
+			<label for="email">邮箱：</label>
+			<input type="email" id="email" name="email"/>
+			<br />
+			<!--url-->
+			<label for="url">地址：</label>
+			<input type="url" id="url" name="url"/>
+			<br />
+			<!--number-->
+			<label for="number">电话号码：</label>
+			<input type="number" name="number" id="number"/>
+			<br />
+			<!--range-->
+			<label for="range">范围：</label>
+			<input type="range" name="range" id="range" min="0" max="100"/>
+			<br />
+			<!--date-->
+			<label for="date">日期</label>
+			<input type="date" name="date" id="date"/>
+			<br />
+			<!--time-->
+			<label for="time">时间</label>
+			<input type="time" name="time" id="time"/>
+			<br />
+			<!--datetime-->
+			<label for="datetime">日期时间：</label>
+			<input type="datetime-local" name="datetime" id="datetime"/>
+			<br />
+			
+			<input type="text" name="username" required autofocus placeholder="请输入自我介绍"/>
+			<br />
+			性别：
+			<input checked="" type="radio" name="sex" value="nan" />男
+			<input type="radio" name="sex" value="nv" />女
+			<br />
+			<select name="liebiao" id="liebiao">
+				<option selected value="中国">中国</option>
+				<option value="美国">美国</option>
+			</select>
+			<br />
+			数字：
+			<input type="text" name="number" pattern="[0-9]{4}"/>
+			
+			<audio autoplay controls src=""></audio>
+			<br />
+			<audio controls>
+				<source src=""></source>
+			</audio>
+			<br />
+			<video controls src="" width="200px" height="100px"></video>
+			<br />
+			<video controls width="200px" height="100px">
+				<source src=""></source>
+			</video>
+			<br />
+			<iframe src="https://www.baidu.com" width="300px" height="150px"></iframe>
+			<br />
+			<a href="https://www.baidu.com" target="_self">连接到百度</a>
+			<a href="https://www.baidu.com" target="_blank">连接到百度</a>
+			<br />
+			<input type="submit" value="提交"/>
+		</form>
+	</body>
+</html>

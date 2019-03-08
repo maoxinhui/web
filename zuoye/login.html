@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div style="border: 1px solid black;width: 400px;height: 185px;">
+			<form action="#" method="post">
+				<label for="name">考生登录</label>
+				<br />
+				真实姓名：<input type="text" autofocus/>
+				<br />
+				证件类型：
+				<select name="leixing" id="leixing">
+					<option selected value="身份证">身份证</option>
+					<option value="学生证">学生证</option>
+				</select>
+				<br />
+				证件号码：
+				<input type="number" name="tele" id="tele"/>
+				<br />
+				报名序号：
+				<input type="number" name="number" id="number"/>
+				<br />
+				校验码：&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="jym" id="jym"/>
+				<br />
+				<span style="padding-left: 150px;">
+					<input type="submit" value="登录"/>
+					<input type="submit" value="找回报名序号"/>
+				</span>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>  
+		<div style="background-color: #87ceeb; width: 453px; height: 392px;>
+			<label for="name">注册账号</label>
+		    <br /><br />
+			<hr style="width: 450px;" align="left"/>
+			<form action="#" method="post">
+				<table>
+					<tr>
+						<td>昵称</td>
+						<td><input autofocus type="text" name="name" id="name"/></td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" name="password" id="password"/></td>
+					</tr>
+					<tr>
+						<td>确认密码</td>
+						<td><input type="password" name="password" id="password"/></td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td>
+							<input checked type="radio" name="sex" value="nan"/>男
+							<input type="radio" name="sex" value="nv"/>女
+						</td>
+					</tr>
+					<tr>
+						<td>生日</td>
+						<td>
+							<select name="date">
+								<option selected value="公历">公历</option>
+								<option value="农历">农历</option>
+							</select>
+							<input type="text" name="date" id="date"/>
+						</td>
+					</tr>
+					<tr>
+						<td>所在地</td>
+						<td>
+							<select name="sheng">
+								<option selected value="山西">山西</option>
+								<option value="河南">河南</option>
+							</select>
+							<select name="qu">
+								<option selected value="太原">太原</option>
+								<option value="中原">中原</option>
+							</select>
+							<select name="xian">
+								<option selected value="太原">太原</option>
+								<option value="扶沟">扶沟</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>手机号码</td>
+						<td><input type="text" name="tele" pattern="[1-9]{11}"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>可通过该手机号快速找回手机</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>中国大陆地区以外地手机号码 点击这里</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" name="zhuce" value="立即注册"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name="qq" value="ty" checked/>同时开通QQ空间</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name="xx" value="ty" checked/>我已阅读并同意相关条款和隐私政策</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
